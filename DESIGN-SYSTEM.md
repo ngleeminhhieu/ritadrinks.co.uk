@@ -193,7 +193,7 @@ Inside a card, stack elements with flex `gap` (32 px in why us cards), not margi
 
 Nothing is fully round: no `50%` or pill radii, including close buttons, play buttons and tags. Use `--radius-md` (8 px) for small controls.
 
-Shadows: `--shadow-soft` (form panel), `--shadow-md` (dropdowns), `--shadow-lift` (section sliding over another; negative spread so it only casts upward and never darkens the next section). The tablet menu drawer dims the page with `--overlay-menu`.
+Shadows: `--shadow-md` (dropdowns), `--shadow-lift` (section sliding over another; negative spread so it only casts upward and never darkens the next section). The tablet menu drawer dims the page with `--overlay-menu`.
 
 Motion:
 
@@ -469,6 +469,7 @@ Built only from existing components. "Your formula, our production" is always th
 ## 8. Assets
 
 - Images and JS libraries come from `C:\frontends\beveragevietnam.com` (`assets/images`, `assets/library`). Don't add CDN libraries.
+- Every page loads only `swiper`, `smoothscroll` (runs by itself), `fancybox` (its CSS is `@import`ed by site.css) and `js/main.js`. Add a library to the footer partial only when a module actually calls it. Files inside the `assets/images` subfolders are never deleted, even if unused.
 - Decorative images use `alt=""` and `pointer-events: none`; meaningful images get a real `alt`.
 - Lazy-load everything below the hero (`loading="lazy" decoding="async"`) and always set `width` / `height`.
 - Icons: SVG, recolored with `mask` + `background: currentColor` so they follow text color.

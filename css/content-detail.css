@@ -233,11 +233,6 @@
   overscroll-behavior-x: contain;
 }
 
-.content-detail__table.is-scrollable:focus-visible {
-  outline: 2px solid var(--color-pri);
-  outline-offset: 3px;
-}
-
 .content-detail__table > table {
   display: table;
   width: 100%;

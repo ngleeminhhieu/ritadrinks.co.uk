@@ -84,7 +84,6 @@
   --on-dark-line: rgb(255 255 255 / 42%);
   --on-dark-line-soft: rgb(255 255 255 / 16%);
   --focus: #f4c947;
-  --shadow-soft: 0 8px 28px rgb(37 49 44 / 5%);
   --shadow-md: 0 12px 30px rgb(0 0 0 / 16%);
   --shadow-lift: 0 -24px 48px -24px rgb(16 33 29 / 22%);
   --overlay-banner: linear-gradient(180deg, rgb(10 20 17 / 0%) 38%, rgb(9 19 17 / 58%) 100%);
