@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en-GB" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c3b33">
+  <meta name="description" content="Search RITA beverages and articles.">
+  <title>Search | RITA</title>
+  <link rel="icon" href="./assets/images/fav.jpg" type="image/jpeg">
+  <link rel="preload" href="./assets/fonts/archivo/archivo-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/archivo/archivo-black-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/library/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="primary-nav primary-nav--left" role="navigation" aria-label="Main navigation">
+          <a class="nav-link" href="./index.html">Home</a>
+          <div class="nav-dropdown" data-group="about">
+            <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-about">About us</button>
+            <div class="dropdown-panel" id="nav-about">
+              <a href="./our-story.html">Our story</a>
+              <a href="./our-history.html">Our history</a>
+              <a href="./our-certificates.html">Our certificates</a>
+              <a href="./our-awards.html">Our awards</a>
+              <a href="./our-activities.html">Our activities</a>
+              <a href="./our-brands.html">Our brands</a>
+            </div>
+          </div>
+          <div class="nav-dropdown" data-group="products">
+            <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-products">Products</button>
+            <div class="dropdown-panel dropdown-panel--columns" id="nav-products">
+              <a href="./products.html">All products</a>
+              <a href="./product-category.html">Fruit juice</a>
+              <a href="./product-category.html">Aloe vera drinks</a>
+              <a href="./product-category.html">Coconut products</a>
+              <a href="./product-category.html">Milk drinks</a>
+              <a href="./product-category.html">Coffee drinks</a>
+              <a href="./product-category.html">Energy drinks</a>
+              <a href="./product-category.html">Sparkling drinks</a>
+              <a href="./product-category.html">Tea drinks</a>
+              <a href="./product-category.html">Seed drinks</a>
+            </div>
+          </div>
+        </div>
+        <a class="alibaba-link" href="https://vn105660124.trustpass.alibaba.com/" target="_blank" rel="noopener"><img src="./assets/images/ic-alibaba-mark.svg" alt="">RITA on Alibaba</a>
+      </div>
+
+      <a class="site-logo" href="./index.html" aria-label="RITA home">
+        <img src="./assets/images/logo-header.svg" alt="RITA">
+      </a>
+
+      <div class="primary-nav primary-nav--right" role="navigation" aria-label="More navigation">
+        <div class="nav-dropdown" data-group="services">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-services">Services</button>
+          <div class="dropdown-panel" id="nav-services">
+            <a href="./oem-service.html">OEM service</a>
+            <a href="./odm-service.html">ODM service</a>
+          </div>
+        </div>
+        <a class="nav-link" href="./blog.html">Blog</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+        <div class="nav-dropdown">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-catalog">Catalogue</button>
+          <div class="dropdown-panel dropdown-panel--right" id="nav-catalog">
+            <a href="https://rita.com.vn/Profile-Rita/index.html" target="_blank" rel="noopener">Categories</a>
+            <a href="https://rita.com.vn/Profile-Rita/brochure.html" target="_blank" rel="noopener">Brochure</a>
+          </div>
+        </div>
+        <button class="search-link searchOpenJS" type="button" aria-label="Open search" aria-controls="site-search" aria-expanded="false">
+          <span class="search-icon"></span>
+        </button>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="header-search searchOpenJS" type="button" aria-label="Open search" aria-controls="site-search" aria-expanded="false">
+        <span class="search-icon"></span>
+      </button>
+    </div>
+  </header>
+  <div class="search-panel searchPanelJS" id="site-search" hidden>
+    <div class="search-panel__sheet">
+      <div class="container">
+        <form class="search-box" action="./searching.html" method="get" role="search" aria-labelledby="search-panel-title">
+          <p class="search-panel__title" id="search-panel-title">What are you looking for?</p>
+          <div class="search-field">
+            <label class="search-field__query">
+              <span class="sr-only">Product name</span>
+              <input type="search" name="q" placeholder="Search products..." autocomplete="off">
+            </label>
+            <label class="search-field__category">
+              <span class="sr-only">Product category</span>
+              <select name="category">
+                <option value="">All categories</option>
+                <option>Fruit juice</option>
+                <option>Aloe vera drinks</option>
+                <option>Coconut products</option>
+                <option>Milk drinks</option>
+                <option>Coffee drinks</option>
+                <option>Energy drinks</option>
+                <option>Sparkling drinks</option>
+                <option>Tea drinks</option>
+                <option>Seed drinks</option>
+              </select>
+            </label>
+            <button class="search-field__submit" type="submit" aria-label="Search"><span class="search-icon"></span></button>
+          </div>
+          <div class="search-popular">
+            <span class="search-popular__label">Popular</span>
+            <a class="search-chip" href="./searching.html?q=coconut+water">Coconut water</a>
+            <a class="search-chip" href="./searching.html?q=aloe+vera">Aloe vera</a>
+            <a class="search-chip" href="./searching.html?q=energy+drink">Energy drink</a>
+            <a class="search-chip" href="./searching.html?q=fruit+juice">Fruit juice</a>
+            <a class="search-chip" href="./searching.html?q=sparkling">Sparkling</a>
+            <a class="search-chip" href="./searching.html?q=private+label">Private label</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-nav mobileNavJS" role="navigation" id="mobile-navigation" aria-label="Mobile navigation" hidden>
+    <div class="mobile-nav__level mobile-nav__level--main">
+      <ul class="mobile-nav__list">
+        <li><a class="mobile-nav__link" href="./index.html">Home</a></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="about" type="button" aria-expanded="false" aria-controls="mobile-nav-about">About us<span class="mobile-nav__chevron"></span></button></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="products" type="button" aria-expanded="false" aria-controls="mobile-nav-products">Products<span class="mobile-nav__chevron"></span></button></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="services" type="button" aria-expanded="false" aria-controls="mobile-nav-services">Services<span class="mobile-nav__chevron"></span></button></li>
+        <li><a class="mobile-nav__link" href="./blog.html">Blog</a></li>
+        <li><a class="mobile-nav__link" href="./contact.html">Contact</a></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="catalog" type="button" aria-expanded="false" aria-controls="mobile-nav-catalog">Catalogue<span class="mobile-nav__chevron"></span></button></li>
+      </ul>
+      <div class="mobile-nav__foot">
+        <div class="mobile-nav__actions">
+          <a class="button button--primary" href="./contact.html"><span class="button-label letterSwapJS">Contact us</span></a>
+          <a class="button button--tertiary" href="https://vn105660124.trustpass.alibaba.com/" target="_blank" rel="noopener"><span class="button-label letterSwapJS">Alibaba store</span></a>
+        </div>
+        <ul class="mobile-nav__contact">
+          <li><a href="tel:+842743784788"><img src="./assets/images/ic-phone.svg" alt="">(+84) 274 3784 788</a></li>
+          <li><a href="mailto:marketing@rita.com.vn"><img src="./assets/images/ic-mail.svg" alt="">marketing@rita.com.vn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-about">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>About us</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-ourstory.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="./our-story.html">Our story</a></li>
+        <li><a class="mobile-nav__link" href="./our-history.html">Our history</a></li>
+        <li><a class="mobile-nav__link" href="./our-certificates.html">Our certificates</a></li>
+        <li><a class="mobile-nav__link" href="./our-awards.html">Our awards</a></li>
+        <li><a class="mobile-nav__link" href="./our-activities.html">Our activities</a></li>
+        <li><a class="mobile-nav__link" href="./our-brands.html">Our brands</a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-products">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>Products</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-products.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="./products.html">All products</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Fruit juice</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Aloe vera drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Coconut products</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Milk drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Coffee drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Energy drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Sparkling drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Tea drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Seed drinks</a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-services">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>Services</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-oem.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="./oem-service.html">OEM service</a></li>
+        <li><a class="mobile-nav__link" href="./odm-service.html">ODM service</a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-catalog">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>Catalogue</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-product-categories.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="https://rita.com.vn/Profile-Rita/index.html" target="_blank" rel="noopener">Categories</a></li>
+        <li><a class="mobile-nav__link" href="https://rita.com.vn/Profile-Rita/brochure.html" target="_blank" rel="noopener">Brochure</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-banner">
+      <img class="page-banner-image" src="./assets/images/banner-products.jpg" alt="RITA beverage range" fetchpriority="high">
+      <div class="page-banner-shade"></div>
+      <div class="page-banner-content container">
+        <h1 id="page-title">Search results</h1>
+        <div class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+          <a class="breadcrumb-home" href="./index.html" aria-label="Home"><img src="./assets/images/ic-home.svg" alt=""></a>
+          <img class="breadcrumb-separator" src="./assets/images/ic-next.svg" alt="">
+          <span aria-current="page">Search results</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="product-results sec-overlap ss-pd pdb-0" aria-labelledby="results-title">
+      <div class="container">
+        <div class="results-head">
+          <h2 class="results-head__title" id="results-title">Results for “<span class="searchQueryJS">juice</span>”</h2>
+          <p class="results-head__count">Showing 1–10 of 32 products</p>
+        </div>
+        <ul class="release-grid">
+          <li data-id="11"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-11.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100% Natural Pineapple Juice Drink 325ml Sleek Can</span></a></li>
+          <li data-id="12"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-12.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100% Natural Orange Juice Drink 325ml Sleek Can</span></a></li>
+          <li data-id="13"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-13.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100 Natural Mixed Fruit Juice Drink 325ml Sleek Can</span></a></li>
+          <li data-id="14"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-14.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100 Natural Mangosteen Juice Drink 325ml Sleek Can</span></a></li>
+          <li data-id="15"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-15.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100 Natural Mango Juice Drink 325ml Sleek Can</span></a></li>
+          <li data-id="16"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-16.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100 Natural Red Grape Juice Drink 325ml Sleek Can</span></a></li>
+          <li data-id="18"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-18.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100% Guava Juice Drink Can</span></a></li>
+          <li data-id="19"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-19.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100% Pineapple Juice Drink Can</span></a></li>
+          <li data-id="20"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-20.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">100% Mango Juice Drink Can</span></a></li>
+          <li data-id="3"><a class="release-card" href="./product-detail.html"><span class="release-card__media"><img src="./assets/images/product-3.jpg" alt="" loading="lazy" decoding="async"></span><span class="release-card__title">Natural Green Grape Juice 325ml Can</span></a></li>
+        </ul>
+        <div class="pagination" role="navigation" aria-label="Search result pages">
+          <span class="nav-button nav-button--prev is-disabled" aria-disabled="true" aria-label="Previous page"><img src="./assets/images/ic-prev.svg" alt=""></span>
+          <ol class="pagination__list">
+            <li><a class="pagination__link" href="?page=1" aria-current="page">1</a></li>
+            <li><a class="pagination__link" href="?page=2">2</a></li>
+            <li><a class="pagination__link" href="?page=3">3</a></li>
+            <li><span class="pagination__gap" aria-hidden="true">…</span></li>
+            <li><a class="pagination__link" href="?page=4">4</a></li>
+          </ol>
+          <a class="nav-button nav-button--next" href="?page=2" rel="next" aria-label="Next page"><img src="./assets/images/ic-next.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquiry-section ss-pd" id="enquiry" aria-labelledby="enquiry-title">
+      <div class="container enquiry-layout">
+        <div class="enquiry-copy">
+          <h2 id="enquiry-title">Let’s build your beverage with us</h2>
+          <p>From idea to shelf, RITA helps global brands create high-quality beverages with reliable OEM, ODM, and private label manufacturing solutions. We support you from product development to export-ready production.</p>
+          <ul class="contact-cards">
+            <li><a class="contact-card" href="tel:+842743784788"><span class="contact-card__text"><span class="contact-card__label">Sales enquiries</span><span class="contact-card__value">(+84) 274 3784 788</span></span><span class="contact-card__icon contact-card__icon--phone"></span></a></li>
+            <li><a class="contact-card" href="tel:+842743784688"><span class="contact-card__text"><span class="contact-card__label">Office</span><span class="contact-card__value">(+84) 274 3784 688</span></span><span class="contact-card__icon contact-card__icon--phone"></span></a></li>
+            <li><a class="contact-card" href="mailto:marketing@rita.com.vn"><span class="contact-card__text"><span class="contact-card__label">Email address</span><span class="contact-card__value">marketing@rita.com.vn</span></span><span class="contact-card__icon contact-card__icon--mail"></span></a></li>
+          </ul>
+        </div>
+
+        <form class="enquiry-form" action="mailto:marketing@rita.com.vn" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <label class="form-field">
+              <span>Full name <b>*</b></span>
+              <input type="text" name="name" placeholder="Enter your full name" autocomplete="name" required>
+            </label>
+            <label class="form-field">
+              <span>Email <b>*</b></span>
+              <input type="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+            </label>
+            <label class="form-field">
+              <span>Phone / WhatsApp <b>*</b></span>
+              <input type="tel" name="phone" placeholder="Enter your phone number" autocomplete="tel" required>
+            </label>
+            <label class="form-field">
+              <span>Country <b>*</b></span>
+              <select name="country" required>
+                <option value="" selected disabled>Select your country</option>
+                <option value="gb">United Kingdom</option>
+                <option value="ie">Ireland</option>
+                <option value="us">United States</option>
+                <option value="au">Australia</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label class="form-field form-field--full">
+              <span>Product interest <b>*</b></span>
+              <select name="product" required>
+                <option value="" selected disabled>Select your product</option>
+                <option>Fruit juice</option><option>Aloe vera drinks</option><option>Coconut products</option><option>Milk drinks</option><option>Tea and coffee</option><option>Carbonated drinks</option><option>Other</option>
+              </select>
+            </label>
+            <fieldset class="service-field form-field--full">
+              <legend>Service request <b>*</b></legend>
+              <div class="radio-options">
+                <label><input type="radio" name="service" value="OEM" required><span>OEM</span></label>
+                <label><input type="radio" name="service" value="ODM"><span>ODM</span></label>
+                <label><input type="radio" name="service" value="private-label"><span>Private label (your brand)</span></label>
+              </div>
+            </fieldset>
+            <label class="form-field form-field--full">
+              <span>Message <b>*</b></span>
+              <textarea name="message" placeholder="Tell us about your beverage, preferred packaging and estimated order quantity." required></textarea>
+            </label>
+          </div>
+          <button class="button button--primary form-submit" type="submit"><span class="button-label letterSwapJS">Send enquiry</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-column footer-products">
+        <h2>Our beverage capabilities</h2>
+        <ul>
+          <li><a href="./products.html">All products</a></li>
+          <li><a href="./product-category.html">Aloe vera drinks</a></li>
+          <li><a href="./product-category.html">Energy drinks</a></li>
+          <li><a href="./product-category.html">Coffee drinks</a></li>
+          <li><a href="./product-category.html">Seed drinks</a></li>
+        </ul>
+        <ul>
+          <li><a href="./product-category.html">Fruit juice</a></li>
+          <li><a href="./product-category.html">Coconut products</a></li>
+          <li><a href="./product-category.html">Milk drinks</a></li>
+          <li><a href="./product-category.html">Sparkling drinks</a></li>
+          <li><a href="./product-category.html">Tea drinks</a></li>
+        </ul>
+      </section>
+      <div class="footer-column">
+        <dl class="footer-info">
+          <dt>Head office address</dt>
+          <dd>No. 08, Thong Nhat Boulevard, Song Than 2 Industrial Park, Di An Ward, Ho Chi Minh City, Vietnam</dd>
+          <dt>Tax code</dt>
+          <dd>3700574950</dd>
+          <dt>Fax</dt>
+          <dd>(+84) 274 3784 799</dd>
+        </dl>
+      </div>
+      <div class="footer-column">
+        <dl class="footer-info">
+          <dt>Sales enquiries</dt>
+          <dd><a href="tel:+842743784788">(+84) 274 3784 788</a></dd>
+          <dt>Office</dt>
+          <dd><a href="tel:+842743784688">(+84) 274 3784 688</a></dd>
+          <dt>Email address</dt>
+          <dd><a href="mailto:marketing@rita.com.vn">marketing@rita.com.vn</a></dd>
+        </dl>
+      </div>
+      <section class="footer-column footer-links">
+        <h2>Quick links</h2>
+        <ul>
+          <li><a href="./our-story.html">Our story</a></li>
+          <li><a href="./oem-service.html">OEM service</a></li>
+          <li><a href="./odm-service.html">ODM service</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>© 2026 RITA Food &amp; Drink Co., Ltd</p>
+        <div class="payment-marks" aria-label="Accepted payment methods"><img src="./assets/images/visa.png" alt="Visa"><img src="./assets/images/paypal.png" alt="PayPal"><img src="./assets/images/mastercard.png" alt="Mastercard"><img src="./assets/images/maestro.png" alt="Maestro"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/library/jquery/jquery.js"></script>
+  <script src="./assets/library/jquery/jquery-migrate.js"></script>
+  <script src="./assets/library/aos/aos.js"></script>
+  <script src="./assets/library/gsap/gsap.min.js"></script>
+  <script src="./assets/library/gsap/ScrollTrigger.min.js"></script>
+  <script src="./assets/library/ukiyo/ukiyo.min.js"></script>
+  <script src="./assets/library/splide/splide.min.js"></script>
+  <script src="./assets/library/splide/splide-extension-auto-scroll.min.js"></script>
+  <script src="./assets/library/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/library/smoothscroll/SmoothScroll.min.js"></script>
+  <script src="./assets/library/select2/select2.min.js"></script>
+  <script src="./assets/library/fancybox/fancybox.umd.js"></script>
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>

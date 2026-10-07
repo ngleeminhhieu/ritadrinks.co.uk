@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en-GB" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c3b33">
+  <meta name="description" content="Discover the story behind RITA beverage manufacturing.">
+  <title>Our Story | RITA</title>
+  <link rel="icon" href="./assets/images/fav.jpg" type="image/jpeg">
+  <link rel="preload" href="./assets/fonts/archivo/archivo-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/archivo/archivo-black-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/library/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="primary-nav primary-nav--left" role="navigation" aria-label="Main navigation">
+          <a class="nav-link" href="./index.html">Home</a>
+          <div class="nav-dropdown" data-group="about">
+            <button class="nav-link is-current" type="button" aria-expanded="false" aria-controls="nav-about">About us</button>
+            <div class="dropdown-panel" id="nav-about">
+              <a href="./our-story.html" aria-current="page">Our story</a>
+              <a href="./our-history.html">Our history</a>
+              <a href="./our-certificates.html">Our certificates</a>
+              <a href="./our-awards.html">Our awards</a>
+              <a href="./our-activities.html">Our activities</a>
+              <a href="./our-brands.html">Our brands</a>
+            </div>
+          </div>
+          <div class="nav-dropdown" data-group="products">
+            <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-products">Products</button>
+            <div class="dropdown-panel dropdown-panel--columns" id="nav-products">
+              <a href="./products.html">All products</a>
+              <a href="./product-category.html">Fruit juice</a>
+              <a href="./product-category.html">Aloe vera drinks</a>
+              <a href="./product-category.html">Coconut products</a>
+              <a href="./product-category.html">Milk drinks</a>
+              <a href="./product-category.html">Coffee drinks</a>
+              <a href="./product-category.html">Energy drinks</a>
+              <a href="./product-category.html">Sparkling drinks</a>
+              <a href="./product-category.html">Tea drinks</a>
+              <a href="./product-category.html">Seed drinks</a>
+            </div>
+          </div>
+        </div>
+        <a class="alibaba-link" href="https://vn105660124.trustpass.alibaba.com/" target="_blank" rel="noopener"><img src="./assets/images/ic-alibaba-mark.svg" alt="">RITA on Alibaba</a>
+      </div>
+
+      <a class="site-logo" href="./index.html" aria-label="RITA home">
+        <img src="./assets/images/logo-header.svg" alt="RITA">
+      </a>
+
+      <div class="primary-nav primary-nav--right" role="navigation" aria-label="More navigation">
+        <div class="nav-dropdown" data-group="services">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-services">Services</button>
+          <div class="dropdown-panel" id="nav-services">
+            <a href="./oem-service.html">OEM service</a>
+            <a href="./odm-service.html">ODM service</a>
+          </div>
+        </div>
+        <a class="nav-link" href="./blog.html">Blog</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+        <div class="nav-dropdown">
+          <button class="nav-link" type="button" aria-expanded="false" aria-controls="nav-catalog">Catalogue</button>
+          <div class="dropdown-panel dropdown-panel--right" id="nav-catalog">
+            <a href="https://rita.com.vn/Profile-Rita/index.html" target="_blank" rel="noopener">Categories</a>
+            <a href="https://rita.com.vn/Profile-Rita/brochure.html" target="_blank" rel="noopener">Brochure</a>
+          </div>
+        </div>
+        <button class="search-link searchOpenJS" type="button" aria-label="Open search" aria-controls="site-search" aria-expanded="false">
+          <span class="search-icon"></span>
+        </button>
+      </div>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="header-search searchOpenJS" type="button" aria-label="Open search" aria-controls="site-search" aria-expanded="false">
+        <span class="search-icon"></span>
+      </button>
+    </div>
+  </header>
+  <div class="search-panel searchPanelJS" id="site-search" hidden>
+    <div class="search-panel__sheet">
+      <div class="container">
+        <form class="search-box" action="./searching.html" method="get" role="search" aria-labelledby="search-panel-title">
+          <p class="search-panel__title" id="search-panel-title">What are you looking for?</p>
+          <div class="search-field">
+            <label class="search-field__query">
+              <span class="sr-only">Product name</span>
+              <input type="search" name="q" placeholder="Search products..." autocomplete="off">
+            </label>
+            <label class="search-field__category">
+              <span class="sr-only">Product category</span>
+              <select name="category">
+                <option value="">All categories</option>
+                <option>Fruit juice</option>
+                <option>Aloe vera drinks</option>
+                <option>Coconut products</option>
+                <option>Milk drinks</option>
+                <option>Coffee drinks</option>
+                <option>Energy drinks</option>
+                <option>Sparkling drinks</option>
+                <option>Tea drinks</option>
+                <option>Seed drinks</option>
+              </select>
+            </label>
+            <button class="search-field__submit" type="submit" aria-label="Search"><span class="search-icon"></span></button>
+          </div>
+          <div class="search-popular">
+            <span class="search-popular__label">Popular</span>
+            <a class="search-chip" href="./searching.html?q=coconut+water">Coconut water</a>
+            <a class="search-chip" href="./searching.html?q=aloe+vera">Aloe vera</a>
+            <a class="search-chip" href="./searching.html?q=energy+drink">Energy drink</a>
+            <a class="search-chip" href="./searching.html?q=fruit+juice">Fruit juice</a>
+            <a class="search-chip" href="./searching.html?q=sparkling">Sparkling</a>
+            <a class="search-chip" href="./searching.html?q=private+label">Private label</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-nav mobileNavJS" role="navigation" id="mobile-navigation" aria-label="Mobile navigation" hidden>
+    <div class="mobile-nav__level mobile-nav__level--main">
+      <ul class="mobile-nav__list">
+        <li><a class="mobile-nav__link" href="./index.html">Home</a></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS is-current" data-group="about" type="button" aria-expanded="false" aria-controls="mobile-nav-about">About us<span class="mobile-nav__chevron"></span></button></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="products" type="button" aria-expanded="false" aria-controls="mobile-nav-products">Products<span class="mobile-nav__chevron"></span></button></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="services" type="button" aria-expanded="false" aria-controls="mobile-nav-services">Services<span class="mobile-nav__chevron"></span></button></li>
+        <li><a class="mobile-nav__link" href="./blog.html">Blog</a></li>
+        <li><a class="mobile-nav__link" href="./contact.html">Contact</a></li>
+        <li><button class="mobile-nav__link mobileNavOpenJS" data-group="catalog" type="button" aria-expanded="false" aria-controls="mobile-nav-catalog">Catalogue<span class="mobile-nav__chevron"></span></button></li>
+      </ul>
+      <div class="mobile-nav__foot">
+        <div class="mobile-nav__actions">
+          <a class="button button--primary" href="./contact.html"><span class="button-label letterSwapJS">Contact us</span></a>
+          <a class="button button--tertiary" href="https://vn105660124.trustpass.alibaba.com/" target="_blank" rel="noopener"><span class="button-label letterSwapJS">Alibaba store</span></a>
+        </div>
+        <ul class="mobile-nav__contact">
+          <li><a href="tel:+842743784788"><img src="./assets/images/ic-phone.svg" alt="">(+84) 274 3784 788</a></li>
+          <li><a href="mailto:marketing@rita.com.vn"><img src="./assets/images/ic-mail.svg" alt="">marketing@rita.com.vn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-about">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>About us</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-ourstory.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="./our-story.html" aria-current="page">Our story</a></li>
+        <li><a class="mobile-nav__link" href="./our-history.html">Our history</a></li>
+        <li><a class="mobile-nav__link" href="./our-certificates.html">Our certificates</a></li>
+        <li><a class="mobile-nav__link" href="./our-awards.html">Our awards</a></li>
+        <li><a class="mobile-nav__link" href="./our-activities.html">Our activities</a></li>
+        <li><a class="mobile-nav__link" href="./our-brands.html">Our brands</a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-products">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>Products</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-products.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="./products.html">All products</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Fruit juice</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Aloe vera drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Coconut products</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Milk drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Coffee drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Energy drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Sparkling drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Tea drinks</a></li>
+        <li><a class="mobile-nav__link" href="./product-category.html">Seed drinks</a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-services">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>Services</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-oem.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="./oem-service.html">OEM service</a></li>
+        <li><a class="mobile-nav__link" href="./odm-service.html">ODM service</a></li>
+      </ul>
+    </div>
+    <div class="mobile-nav__level mobile-nav__level--sub mobileNavSubJS" id="mobile-nav-catalog">
+      <button class="mobile-nav__back mobileNavBackJS" type="button"><span class="mobile-nav__chevron mobile-nav__chevron--back"></span>Catalogue</button>
+      <div class="mobile-nav__thumb"><img src="./assets/images/banner-product-categories.jpg" alt="" loading="lazy"></div>
+      <ul class="mobile-nav__list mobile-nav__list--sub">
+        <li><a class="mobile-nav__link" href="https://rita.com.vn/Profile-Rita/index.html" target="_blank" rel="noopener">Categories</a></li>
+        <li><a class="mobile-nav__link" href="https://rita.com.vn/Profile-Rita/brochure.html" target="_blank" rel="noopener">Brochure</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="sub-nav scrollHideJS" role="navigation" aria-label="About us">
+    <div class="sub-nav__inner subNavJS">
+      <a class="sub-nav__link" href="./our-story.html" aria-current="page">Our story</a>
+      <a class="sub-nav__link" href="./our-history.html">Our history</a>
+      <a class="sub-nav__link" href="./our-certificates.html">Our certificates</a>
+      <a class="sub-nav__link" href="./our-awards.html">Our awards</a>
+      <a class="sub-nav__link" href="./our-activities.html">Our activities</a>
+      <a class="sub-nav__link" href="./our-brands.html">Our brands</a>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-banner">
+      <img class="page-banner-image" src="./assets/images/banner-ourstory.jpg" alt="RITA beverage research and development team at work" fetchpriority="high">
+      <div class="page-banner-shade"></div>
+      <div class="page-banner-content container">
+        <h1 id="page-title">Our story</h1>
+        <div class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+          <a class="breadcrumb-home" href="./index.html" aria-label="Home"><img src="./assets/images/ic-home.svg" alt=""></a>
+          <img class="breadcrumb-separator" src="./assets/images/ic-next.svg" alt="">
+          <a href="./our-story.html">About us</a>
+          <img class="breadcrumb-separator" src="./assets/images/ic-next.svg" alt="">
+          <span aria-current="page">Our story</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="collage-intro sec-overlap ss-pd pdb-0" aria-labelledby="collage-intro-title">
+      <div class="collage" aria-hidden="true">
+        <div class="collage__col">
+          <img src="./assets/images/story-01.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+          <img src="./assets/images/story-02.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-03.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+          <img src="./assets/images/story-04.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-05.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-06.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-07.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-08.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-09.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-10.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+          <img src="./assets/images/story-11.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="collage__col">
+          <img src="./assets/images/story-12.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+          <img src="./assets/images/story-13.jpg" width="275" height="340" alt="" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <div class="container">
+        <div class="section-head collage-intro__head">
+          <h2 class="section-title" id="collage-intro-title">A leading beverage manufacturer from Vietnam</h2>
+          <p class="section-desc">Located in the tropical heart of Vietnam, RITA Beverage transforms nature’s finest fruits into premium beverages through innovation, advanced manufacturing, and internationally certified quality standards.</p>
+        </div>
+        <div class="video-embed videoEmbedJS">
+          <iframe title="Rita Company Overview | Trusted Beverage Manufacturer from Vietnam" data-src="https://www.youtube-nocookie.com/embed/svy017zkCwU?rel=0&amp;autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <button class="video-cover" type="button" aria-label="Play video: Rita Company Overview">
+            <img src="./assets/images/introduction.jpg" width="1392" height="630" alt="" loading="lazy" decoding="async">
+            <span class="video-play" aria-hidden="true"></span>
+          </button>
+        </div>
+        <ul class="stats">
+          <li class="stat">
+            <img class="stat__icon" src="./assets/images/stats-global.png" width="120" height="120" alt="" loading="lazy" decoding="async">
+            <p class="stat__body"><span class="stat__value"><span data-count="180">180</span><span class="stat__unit">+</span></span><span class="stat__label">Countries we export</span></p>
+          </li>
+          <li class="stat">
+            <img class="stat__icon" src="./assets/images/stats-handshake.png" width="120" height="120" alt="" loading="lazy" decoding="async">
+            <p class="stat__body"><span class="stat__value"><span data-count="500">500</span><span class="stat__unit">+</span></span><span class="stat__label">Partner brands</span></p>
+          </li>
+          <li class="stat">
+            <img class="stat__icon" src="./assets/images/stats-container.png" width="120" height="120" alt="" loading="lazy" decoding="async">
+            <p class="stat__body"><span class="stat__value"><span data-count="1200">1200</span><span class="stat__unit">+</span></span><span class="stat__label">Containers per month</span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="leader ss-pd" aria-labelledby="leader-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" id="leader-title">Leadership &amp; direction</h2>
+          <p class="section-desc">Behind every bottle is a clear vision, a defined mission, and two decades of manufacturing discipline — guided by the people who built RITA.</p>
+        </div>
+        <div class="leader__grid">
+          <article class="leader__msg">
+            <div class="leader__msg-inner">
+              <h3 class="leader__name">Mr Lin Hong Wei</h3>
+              <p class="leader__role">Chairman of RITA Beverage</p>
+              <blockquote class="leader__quote">
+                <p>“At RITA, our vision goes beyond manufacturing beverages. We are building a global ecosystem where innovation, quality, and sustainability create lasting value for our customers, our partners, and the communities we serve.</p>
+                <p>As we expand into new markets, our focus stays on excellence in every bottle. Together with partners in over 180 countries, we keep pushing boundaries and proudly share the taste of Vietnam with the world.”</p>
+              </blockquote>
+              <div class="leader__actions">
+                <a class="button button--tertiary" href="./our-history.html"><span class="button-label letterSwapJS">Our history</span></a>
+                <a class="button button--primary" href="./contact.html"><span class="button-label letterSwapJS">Contact us</span></a>
+              </div>
+            </div>
+            <img class="leader__decor" src="./assets/images/ceo-packaging.png" width="323" height="231" alt="RITA packaging formats: PP bottle, aluminium can, glass bottle and PET bottle" loading="lazy" decoding="async">
+          </article>
+          <div class="leader__aside">
+            <article class="leader__card">
+              <h3 class="leader__card-title">Our vision</h3>
+              <p class="leader__card-desc">To become the region’s most trusted beverage manufacturer, driven by innovation and sustainable growth — building a global ecosystem where Vietnamese quality earns trust worldwide.</p>
+              <img class="leader__card-icon leader__card-icon--vision" src="./assets/images/decor-vision.png" width="100" height="100" alt="" loading="lazy" decoding="async">
+            </article>
+            <article class="leader__card">
+              <h3 class="leader__card-title">Our mission</h3>
+              <p class="leader__card-desc">To deliver safe, high-quality, innovative beverages for customers at home and abroad — growing alongside our partners while giving back to our people, communities, and environment.</p>
+              <img class="leader__card-icon" src="./assets/images/decor-mission.png" width="100" height="100" alt="" loading="lazy" decoding="async">
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stack-scroll">
+      <div class="dark-block sec-overlap stackPinJS">
+        <img class="dark-block__decor dark-block__decor--mango" src="./assets/images/decor-mango.png" width="307" height="317" alt="" loading="lazy" decoding="async">
+        <img class="dark-block__decor dark-block__decor--cloud" src="./assets/images/decor-cloud.png" width="440" height="293" alt="" loading="lazy" decoding="async">
+        <img class="dark-block__decor dark-block__decor--flowers" src="./assets/images/decor-flowers.png" width="189" height="246" alt="" loading="lazy" decoding="async">
+        <img class="dark-block__decor dark-block__decor--tree" src="./assets/images/decor-coconut-tree.png" width="270" height="406" alt="" loading="lazy" decoding="async">
+
+        <section class="process-path processPathJS ss-pd pdb-0" aria-labelledby="process-title">
+          <div class="container">
+            <div class="section-head">
+              <h2 class="section-title" id="process-title">From formulation to <span class="nowrap">export-ready</span> product delivery</h2>
+              <p class="section-desc">A streamlined manufacturing journey designed for quality and scale — combining product development, advanced production, strict quality control, professional packaging, and reliable export support.</p>
+            </div>
+            <ol class="process-path__list processPathListJS">
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-1.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">01</span>
+                <h3 class="process-step__title">Raw material inspection</h3>
+                <p class="process-step__desc">Only the finest ingredients pass our strict entry checks.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-2.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">02</span>
+                <h3 class="process-step__title">Material transport to washing</h3>
+                <p class="process-step__desc">A controlled line keeps every ingredient clean and fresh.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-3.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">03</span>
+                <h3 class="process-step__title">Raw material washing</h3>
+                <p class="process-step__desc">Multi-stage washing removes impurities and keeps natural flavour.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-4.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">04</span>
+                <h3 class="process-step__title">Changing area</h3>
+                <p class="process-step__desc">Hygiene gates prepare every team member for production.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-5.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">05</span>
+                <h3 class="process-step__title">Preliminary processing room</h3>
+                <p class="process-step__desc">Ingredients are prepped to production-ready standards.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-6.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">06</span>
+                <h3 class="process-step__title">Filter conveyor</h3>
+                <p class="process-step__desc">Continuous filtering protects purity at every transfer.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/oem-03.jpg" width="739" height="747" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">07</span>
+                <h3 class="process-step__title">Mixing &amp; pasteurisation</h3>
+                <p class="process-step__desc">Each recipe is blended to spec, then heat-treated for safety and shelf life.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/history-2022.jpg" width="900" height="450" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">08</span>
+                <h3 class="process-step__title">Filling &amp; sealing</h3>
+                <p class="process-step__desc">Automated lines fill and seal every can and bottle in a closed, hygienic room.</p>
+              </li>
+              <li class="process-step">
+                <div class="process-step__media"><img src="./assets/images/process-7.jpg" width="488" height="471" alt="" loading="lazy" decoding="async"></div>
+                <span class="process-step__dot" aria-hidden="true">09</span>
+                <h3 class="process-step__title">Incubation area</h3>
+                <p class="process-step__desc">Controlled incubation locks in quality and stability before export.</p>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="why-us ss-pd" aria-labelledby="why-title">
+          <div class="container">
+            <div class="section-head">
+              <h2 class="section-title" id="why-title">Why choose us</h2>
+              <p class="section-desc">A leading premium beverage manufacturer and supplier in Vietnam. From formulation to final shipment, RITA delivers premium beverages at scale — combining in-house R&amp;D, flexible OEM/ODM production, and export-ready quality for brands worldwide.</p>
+            </div>
+            <ul class="why-grid">
+              <li class="why-card">
+                <img class="why-card__icon" src="./assets/images/decor-sample.png" width="120" height="120" alt="" loading="lazy">
+                <h3 class="why-card__title">Free sample</h3>
+                <p class="why-card__desc">Receive a customised product sample within <strong>7–14 days</strong> to evaluate the flavour, quality, packaging, and overall product direction before moving forward with mass production.</p>
+              </li>
+              <li class="why-card">
+                <img class="why-card__icon" src="./assets/images/decor-label.png" width="120" height="120" alt="" loading="lazy">
+                <h3 class="why-card__title">Free label design</h3>
+                <p class="why-card__desc">Get professional label design support tailored to your brand, product concept, and target market, helping you create attractive packaging ready for production and retail.</p>
+              </li>
+              <li class="why-card">
+                <img class="why-card__icon" src="./assets/images/decor-moq.png" width="120" height="120" alt="" loading="lazy">
+                <h3 class="why-card__title">Small MOQ <span class="why-card__unit">(1x20ft)</span></h3>
+                <p class="why-card__desc">Start with just one 20ft container to test your market, reduce initial investment, manage inventory more efficiently, and grow your beverage business with flexibility.</p>
+              </li>
+              <li class="why-card">
+                <img class="why-card__icon" src="./assets/images/decor-oemodm.png" width="120" height="120" alt="" loading="lazy">
+                <h3 class="why-card__title">OEM/ODM &amp; private label</h3>
+                <p class="why-card__desc">Bring your own formula or work with our experienced R&amp;D team to develop customised flavours, ingredients, packaging, and beverage concepts for your target market.</p>
+              </li>
+              <li class="why-card">
+                <img class="why-card__icon" src="./assets/images/decor-fast.png" width="120" height="120" alt="" loading="lazy">
+                <h3 class="why-card__title">Fast turnaround</h3>
+                <p class="why-card__desc">Move from approved product concept to export-ready mass production in <strong>approximately 4–8 weeks</strong>, supported by streamlined development, manufacturing, and quality control.</p>
+              </li>
+              <li class="why-card">
+                <img class="why-card__icon" src="./assets/images/decor-aftersale.png" width="120" height="120" alt="" loading="lazy">
+                <h3 class="why-card__title">Logistics and after-sales services</h3>
+                <p class="why-card__desc">From export documentation and container loading to shipping coordination and repeat orders, our team provides reliable support throughout your long-term business partnership.</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="exhibitions ss-pd pdb-0" aria-labelledby="exhibitions-title">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" id="exhibitions-title">International exhibitions</h2>
+            <p class="section-desc">RITA regularly exhibits at leading international trade shows, earning recognition among the world’s top beverage manufacturers.</p>
+          </div>
+        </div>
+        <div class="exhi-logos">
+          <div class="exhi-logos__track">
+            <ul class="exhi-logos__group">
+              <li><img src="./assets/images/exhi-thaifex.jpg" alt="THAIFEX World of Food Asia" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-vietfood.png" alt="Vietfood and Beverage" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-africa-big.png" alt="Africa’s Big 7" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-anuga.png" alt="Anuga" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-fhc-china.png" alt="FHC China" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-gulfood.png" alt="Gulfood" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-pmla.png" alt="PLMA World of Private Label" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-caexpo.png" alt="CAEXPO" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-sial.png" alt="SIAL Middle East" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-sfa.png" alt="Specialty Food Association" loading="lazy" decoding="async"></li>
+            </ul>
+            <ul class="exhi-logos__group" aria-hidden="true">
+              <li><img src="./assets/images/exhi-thaifex.jpg" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-vietfood.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-africa-big.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-anuga.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-fhc-china.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-gulfood.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-pmla.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-caexpo.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-sial.png" alt="" loading="lazy" decoding="async"></li>
+              <li><img src="./assets/images/exhi-sfa.png" alt="" loading="lazy" decoding="async"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="exhi-map exhibitionMapJS">
+            <img src="./assets/images/map.png" width="1216" height="647" alt="World map of the regions where RITA exhibits and exports" loading="lazy" decoding="async">
+          <a class="exhi-pin" style="--i: 0; top: 41.69%; left: 18.8%" href="https://ritadrinks.us" target="_blank" rel="noopener" data-label="United States" aria-label="RITA in the United States"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <a class="exhi-pin" style="--i: 1; top: 29.5%; left: 46.3%" href="./index.html" data-label="United Kingdom" aria-label="RITA in the United Kingdom"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <span class="exhi-pin" style="--i: 2; top: 33.24%; left: 49.95%" data-label="Europe" aria-hidden="true"><img src="./assets/images/ic-pin-red.svg" alt=""></span>
+          <a class="exhi-pin" style="--i: 3; top: 20.5%; left: 73.14%" href="https://ritabeverages.com" target="_blank" rel="noopener" data-label="Russia" aria-label="RITA in Russia"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <a class="exhi-pin" style="--i: 4; top: 46.5%; left: 62.5%" href="https://beveragevietnam.com" target="_blank" rel="noopener" data-label="Iran" aria-label="RITA in Iran"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <a class="exhi-pin" style="--i: 5; top: 51.25%; left: 62%" href="https://ritadrink.com" target="_blank" rel="noopener" data-label="United Arab Emirates" aria-label="RITA in the United Arab Emirates"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <a class="exhi-pin" style="--i: 6; top: 45.57%; left: 79.06%" href="https://ritadrinks.cn" target="_blank" rel="noopener" data-label="China" aria-label="RITA in China"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <span class="exhi-pin" style="--i: 7; top: 52%; left: 75.8%" data-label="Vietnam" aria-hidden="true"><img src="./assets/images/ic-pin-red.svg" alt=""></span>
+          <a class="exhi-pin" style="--i: 8; top: 62.5%; left: 75%" href="https://ritadrinks.asia" target="_blank" rel="noopener" data-label="Singapore" aria-label="RITA in Singapore"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <a class="exhi-pin" style="--i: 9; top: 51.5%; left: 68.8%" href="https://ritadrinks.in" target="_blank" rel="noopener" data-label="India" aria-label="RITA in India"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          <a class="exhi-pin" style="--i: 10; top: 80.02%; left: 83.82%" href="https://ritadrinks.com" target="_blank" rel="noopener" data-label="Australia" aria-label="RITA in Australia"><img src="./assets/images/ic-pin-red.svg" alt=""></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="certificates ss-pd pdb-0" aria-labelledby="certificates-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" id="certificates-title">Our certificates</h2>
+          <p class="section-desc">RITA’s products are certified for both domestic and international markets — including some of the world’s most demanding, where standards leave no room for compromise.</p>
+        </div>
+        <figure class="cert-overview">
+          <img src="./assets/images/cef-overview.png" width="1014" height="224" alt="RITA certifications including AIJN, BSI, BRCGS, HALAL, SMETA, GMP, IFS Food, FSSC 22000, HACCP and ISO 22000" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section class="enquiry-section ss-pd" id="enquiry" aria-labelledby="enquiry-title">
+      <div class="container enquiry-layout">
+        <div class="enquiry-copy">
+          <h2 id="enquiry-title">Let’s build your beverage with us</h2>
+          <p>From idea to shelf, RITA helps global brands create high-quality beverages with reliable OEM, ODM, and private label manufacturing solutions. We support you from product development to export-ready production.</p>
+          <ul class="contact-cards">
+            <li><a class="contact-card" href="tel:+842743784788"><span class="contact-card__text"><span class="contact-card__label">Sales enquiries</span><span class="contact-card__value">(+84) 274 3784 788</span></span><span class="contact-card__icon contact-card__icon--phone"></span></a></li>
+            <li><a class="contact-card" href="tel:+842743784688"><span class="contact-card__text"><span class="contact-card__label">Office</span><span class="contact-card__value">(+84) 274 3784 688</span></span><span class="contact-card__icon contact-card__icon--phone"></span></a></li>
+            <li><a class="contact-card" href="mailto:marketing@rita.com.vn"><span class="contact-card__text"><span class="contact-card__label">Email address</span><span class="contact-card__value">marketing@rita.com.vn</span></span><span class="contact-card__icon contact-card__icon--mail"></span></a></li>
+          </ul>
+        </div>
+
+        <form class="enquiry-form" action="mailto:marketing@rita.com.vn" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <label class="form-field">
+              <span>Full name <b>*</b></span>
+              <input type="text" name="name" placeholder="Enter your full name" autocomplete="name" required>
+            </label>
+            <label class="form-field">
+              <span>Email <b>*</b></span>
+              <input type="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+            </label>
+            <label class="form-field">
+              <span>Phone / WhatsApp <b>*</b></span>
+              <input type="tel" name="phone" placeholder="Enter your phone number" autocomplete="tel" required>
+            </label>
+            <label class="form-field">
+              <span>Country <b>*</b></span>
+              <select name="country" required>
+                <option value="" selected disabled>Select your country</option>
+                <option value="gb">United Kingdom</option>
+                <option value="ie">Ireland</option>
+                <option value="us">United States</option>
+                <option value="au">Australia</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label class="form-field form-field--full">
+              <span>Product interest <b>*</b></span>
+              <select name="product" required>
+                <option value="" selected disabled>Select your product</option>
+                <option>Fruit juice</option><option>Aloe vera drinks</option><option>Coconut products</option><option>Milk drinks</option><option>Tea and coffee</option><option>Carbonated drinks</option><option>Other</option>
+              </select>
+            </label>
+            <fieldset class="service-field form-field--full">
+              <legend>Service request <b>*</b></legend>
+              <div class="radio-options">
+                <label><input type="radio" name="service" value="OEM" required><span>OEM</span></label>
+                <label><input type="radio" name="service" value="ODM"><span>ODM</span></label>
+                <label><input type="radio" name="service" value="private-label"><span>Private label (your brand)</span></label>
+              </div>
+            </fieldset>
+            <label class="form-field form-field--full">
+              <span>Message <b>*</b></span>
+              <textarea name="message" placeholder="Tell us about your beverage, preferred packaging and estimated order quantity." required></textarea>
+            </label>
+          </div>
+          <button class="button button--primary form-submit" type="submit"><span class="button-label letterSwapJS">Send enquiry</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-column footer-products">
+        <h2>Our beverage capabilities</h2>
+        <ul>
+          <li><a href="./products.html">All products</a></li>
+          <li><a href="./product-category.html">Aloe vera drinks</a></li>
+          <li><a href="./product-category.html">Energy drinks</a></li>
+          <li><a href="./product-category.html">Coffee drinks</a></li>
+          <li><a href="./product-category.html">Seed drinks</a></li>
+        </ul>
+        <ul>
+          <li><a href="./product-category.html">Fruit juice</a></li>
+          <li><a href="./product-category.html">Coconut products</a></li>
+          <li><a href="./product-category.html">Milk drinks</a></li>
+          <li><a href="./product-category.html">Sparkling drinks</a></li>
+          <li><a href="./product-category.html">Tea drinks</a></li>
+        </ul>
+      </section>
+      <div class="footer-column">
+        <dl class="footer-info">
+          <dt>Head office address</dt>
+          <dd>No. 08, Thong Nhat Boulevard, Song Than 2 Industrial Park, Di An Ward, Ho Chi Minh City, Vietnam</dd>
+          <dt>Tax code</dt>
+          <dd>3700574950</dd>
+          <dt>Fax</dt>
+          <dd>(+84) 274 3784 799</dd>
+        </dl>
+      </div>
+      <div class="footer-column">
+        <dl class="footer-info">
+          <dt>Sales enquiries</dt>
+          <dd><a href="tel:+842743784788">(+84) 274 3784 788</a></dd>
+          <dt>Office</dt>
+          <dd><a href="tel:+842743784688">(+84) 274 3784 688</a></dd>
+          <dt>Email address</dt>
+          <dd><a href="mailto:marketing@rita.com.vn">marketing@rita.com.vn</a></dd>
+        </dl>
+      </div>
+      <section class="footer-column footer-links">
+        <h2>Quick links</h2>
+        <ul>
+          <li><a href="./our-story.html">Our story</a></li>
+          <li><a href="./oem-service.html">OEM service</a></li>
+          <li><a href="./odm-service.html">ODM service</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>© 2026 RITA Food &amp; Drink Co., Ltd</p>
+        <div class="payment-marks" aria-label="Accepted payment methods"><img src="./assets/images/visa.png" alt="Visa"><img src="./assets/images/paypal.png" alt="PayPal"><img src="./assets/images/mastercard.png" alt="Mastercard"><img src="./assets/images/maestro.png" alt="Maestro"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/library/jquery/jquery.js"></script>
+  <script src="./assets/library/jquery/jquery-migrate.js"></script>
+  <script src="./assets/library/aos/aos.js"></script>
+  <script src="./assets/library/gsap/gsap.min.js"></script>
+  <script src="./assets/library/gsap/ScrollTrigger.min.js"></script>
+  <script src="./assets/library/ukiyo/ukiyo.min.js"></script>
+  <script src="./assets/library/splide/splide.min.js"></script>
+  <script src="./assets/library/splide/splide-extension-auto-scroll.min.js"></script>
+  <script src="./assets/library/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/library/smoothscroll/SmoothScroll.min.js"></script>
+  <script src="./assets/library/select2/select2.min.js"></script>
+  <script src="./assets/library/fancybox/fancybox.umd.js"></script>
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
